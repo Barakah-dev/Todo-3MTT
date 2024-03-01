@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ef1328a087.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>Todo App</title>
+</head>
+<body>
+  <div class="container-1">    
+    <div class="display-todo">
+      <div class="heading">
+        <img src="images/todo-img.jpg" alt="todo-img">
+        <h3>Welcome</h3>
+      </div>
+      <div class="list-todo">
+        <div class="head">
+          <h3>Todo List</h3>
+          <i class="add-todo fa-solid fa-plus"></i>
+        </div>
+        <ul class="todo-list">
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-2">
+    <h2>Input New Task</h2>
+    <form action="#" class="input-todo">
+      <div class="input-wrapper">
+        <label for="todo-name">Task Name</label>
+        <input class="todo-name" type="text" placeholder="Input task name">
+      </div>
+      <div class="input-wrapper">
+        <label for="todo-time">Time</label>
+        <input class="todo-time" type="time" name="time">
+      </div>
+      <button type="submit" class="save-todo" onclick="createTodo()">Save Todo</button>
+    </form>
+    
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
